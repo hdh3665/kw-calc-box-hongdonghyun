@@ -34,3 +34,4 @@ switch(command) {
 }
 
 console.log(result);
+

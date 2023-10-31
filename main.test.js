@@ -1,5 +1,5 @@
 const { test, expect } = require("@jest/globals");
-const { spawn } = require("child process");
+const { spawn } = require("child_process");
 
 test("Insufficient params", () => {
     const main = spawn("node", ["main.js", "avg"]);
