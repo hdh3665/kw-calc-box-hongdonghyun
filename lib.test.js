@@ -9,6 +9,10 @@ test("avg([-5, 5]) should be 0", () => {
     expect(lib.avg([-5, 5])).toBe(0);
 });
 
+test("prime(1) is false", () => {
+    expect(lib.prime(1)).toBe(false);
+});
+
 test("prime(3) is true", () => {
     expect(lib.prime(3)).toBe(true);
 });
@@ -19,6 +23,10 @@ test("prime(13) is true", () => {
 
 test("prime(16) is false", () => {
     expect(lib.prime(16)).toBe(false);
+});
+
+test("prime(49) is true", () => {
+    expect(lib.prime(49)).toBe(false);
 });
 
 test("fact(3) is 6", () => {
